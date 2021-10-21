@@ -4,11 +4,13 @@
   "description": "",
   "main": "RemoteMotionServer.js",
   "dependencies": {
+    "express": "^4.17.1",
     "ws": "^8.2.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "RemoteMotionServer.js"
   },
   "author": "",
   "license": "ISC"
