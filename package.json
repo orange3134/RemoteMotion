@@ -1,0 +1,15 @@
+{
+  "name": "remotemotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RemoteMotionServer.js",
+  "dependencies": {
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
