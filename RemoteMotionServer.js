@@ -1,6 +1,6 @@
 
 // WebSocketのサーバの生成
-let ws = require('ws')
+var ws = require('ws');
 var port = process.env.PORT || 5001;
 var server = new ws.Server({port:port});
 console.log('port:' + port);
