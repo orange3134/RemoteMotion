@@ -11,7 +11,7 @@ server.on('connection', ws => {
     // クライアントからのデータ受信時に呼ばれる
     ws.on('message', message => {
         var messageString = message.toString();
-        console.log(messageString);
+        //console.log(messageString);
 
         // クライアントにデータを返信
         server.clients.forEach(client => {
